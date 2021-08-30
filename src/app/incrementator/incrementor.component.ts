@@ -12,7 +12,8 @@ import {
 
 @Component({
   selector: 'inkrementor',
-  template: '<div #brojBodova style="width: 200px; height: 50px"></div>',
+  template:
+    '<div #brojBodova style="width: 200px; height: 50px; font-size: 40px; text-align: center;"></div>',
   providers: [DecimalPipe],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
